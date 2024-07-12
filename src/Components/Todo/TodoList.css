@@ -1,0 +1,100 @@
+/* Container for the entire todo list */
+.container_f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    align-items: center;
+    align-content: center;
+  }
+  
+  /* Style for the Paper component */
+  .paper {
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px; /* Max width of the paper */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography for the header */
+  .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  /* TextField for task input */
+  .textField {
+    flex: 1;
+  }
+  
+  /* Button for adding a task */
+  .addButton {
+    margin-left: 10px;
+  }
+  
+  /* Style for the Alert component */
+  .alert {
+    margin-top: 10px;
+  }
+  
+  /* Style for the Card component */
+  .card {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card header styling */
+  .cardHeader {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+  }
+  
+  /* Card content styling */
+  .cardContent {
+    padding: 10px 15px;
+  }
+  
+  /* Task text styling */
+  .taskText {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Completed task text */
+  .taskText.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Checkbox and IconButton alignment */
+  .cardActions {
+    padding: 5px 10px;
+  }
+  
+  /* Caption for created date */
+  .dateCaption {
+    text-align: right;
+    color: #888;
+    font-size: 0.75rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  

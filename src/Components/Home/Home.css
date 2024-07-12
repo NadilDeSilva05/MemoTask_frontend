@@ -1,0 +1,43 @@
+body {
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+   
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('../images/HomePage.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .home-container {
+
+  padding: 200px; 
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .home-content {
+    padding: 50px;
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+    .home-content {
+      width: 80%;
+    }
+  }
+  

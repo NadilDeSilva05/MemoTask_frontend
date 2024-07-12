@@ -1,0 +1,51 @@
+/* Login.css */
+.login-form {
+    
+
+    margin-top: 150px;
+    background-color: #dacec3;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form form .MuiTextField-root {
+    margin-bottom: 15px;
+    border-radius: 50px;
+
+  }
+  
+  .login-form form .MuiButton-root {
+    margin-top: 15px;
+    border-radius: 50px;
+
+  }
+  
+  .login-form form .MuiTypography-root {
+    margin-top: 10px;
+    border-radius: 50px;
+
+  }
+  
+  .login-form form .MuiLink-root {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-form form .MuiLink-root:hover {
+    text-decoration: underline;
+  }
+  
+  .login-form h4 {
+    margin-bottom: 20px;
+    border-radius: 50px;
+
+  }
+  
+  

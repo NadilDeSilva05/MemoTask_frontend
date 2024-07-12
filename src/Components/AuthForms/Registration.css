@@ -1,0 +1,42 @@
+.registration-form {
+    margin-top: 70px;
+    background-color: #dacec3;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form form .MuiTextField-root {
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+
+.registration-form form .MuiButton-root {
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.registration-form form .MuiTypography-root {
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.registration-form form .MuiLink-root {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registration-form form .MuiLink-root:hover {
+    text-decoration: underline;
+}
+
+.registration-form h4 {
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
